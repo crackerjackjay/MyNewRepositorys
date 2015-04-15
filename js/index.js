@@ -1,3 +1,7 @@
+/* calling in html using this statement */
+/* onclick="capturePhoto(pictureSource.PHOTOLIBRARY);" */
+
+
  function onDeviceReady() {
         pictureSource=navigator.camera.PictureSourceType;
         destinationType=navigator.camera.DestinationType;
